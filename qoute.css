@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+*{
+    margin: auto;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Playfair Display
+    ;
+    background-color: rgb(49, 154, 224);
+    animation: body 4s ease-in;
+}
+@keyframes body{  
+    0%{
+        background-color: skyblue;
+    }                    /*adding animation to the body of page in which the color of the body will be change */
+    25%{
+        background-color: rgb(95, 95, 231);
+    }
+}
+section{
+    text-align: center;
+    padding: 30px;
+}
+span{
+    text-transform: uppercase;
+    color: rgb(235, 37, 37);
+    font-family: cursive;
+    font-size: 6.5em;
+    font-weight: bold;
+}
+
+h1:before, h1:after{
+    content: " ";
+    color:rgb(236, 56, 56);
+    font-size: larger;
+}
+
+p{
+    margin: 0;
+    opacity: 0.5;
+    text-transform: capitalize;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+p:before, p:after{
+    content: " ";
+}
+button{
+    padding: 13px 0px;
+    font-weight: bolder;
+    font-size: larger;
+    color: whitesmoke;
+    background:#42be7a;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin: 30px 0;
+    text-transform: uppercase;
+    width: 60%;
+    font-family: roboto, serif;
+    letter-spacing: 1.2px;
+    cursor:pointer;
+    
+}
+button:hover {
+    background-color: #065a18;
+    box-shadow: 0px 20px 31px rgba(96, 245, 163, 0.4);
+    color: #fff;
+    transform: translateY(15px);
+}
